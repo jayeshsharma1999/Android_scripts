@@ -1,9 +1,9 @@
 /* 
-    Description: Complete Bypass Script - Biometric + Security + Activation (CTF Final)
+    Description: Complete Bypass Script - Biometric + Security + Activation (Final)
     Usage: frida -U -f com.equus.assignmentpro -l complete-bypass.js --no-pause
 */
 
-console.log("=== CTF Complete Bypass Script Loading ===\n");
+console.log("=== Complete Bypass Script Loading ===\n");
 
 var fakeKeyPair = null;
 var fakePrivateKey = null;
@@ -405,4 +405,5 @@ console.log("\nHelper commands:");
 console.log("  goToMain()       - Force navigate to MainActivity");
 console.log("  goToActivation() - Force navigate to Activation screen");
 console.log("  tryCode('1234')  - Enter activation code");
+
 console.log("  clickButton()    - Click visible buttons\n");
